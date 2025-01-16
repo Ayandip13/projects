@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #a3d4ff;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card{
+  background-color: #fff;
+  width: 55%;
+  min-width: 550px;
+  padding: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+  border-radius: 5px;
+}
+.input_field{
+  background: #fff;
+  width: auto;
+  height: 60px;
+  padding: 0 0 0 40px;
+  border-radius: 5px;
+  outline: none;
+}
+h1{
+  background: #fff;
+  font-size: 30px !important;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: black;
+}
+.input_lable{
+  background: #fff;
+  font-size: 20px;
+  color: #004077;
+  font-weight: 600;
+
+}
+.currency_exchange{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.input_container{
+  border-radius: 5px;
+  width: 30%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: black;
+  background-color: #fff;
+}
+
+.output{
+  background: #fff;
+}
+
+h2{
+  width: 50%;
+  margin-top: 20px;
+  background-color: #e7ffff;
+  padding: 25px;
+  border-radius: 10px;  
+}
